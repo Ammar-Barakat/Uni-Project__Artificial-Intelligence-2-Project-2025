@@ -1,0 +1,99 @@
+﻿@page "/"
+@using bookhouseAPP.Models
+@inject HttpClient _httpClient;
+
+<PageTitle>Home</PageTitle>
+
+<Header isHome=true />
+
+<div class="cover">
+    <div class="container">
+        <div class="text">
+            <h1>Welcome To Book House</h1>
+            <h3>Where Every Page Feels Like Home!</h3>
+        </div>
+        <div class="body mt-2">
+            <div class="search">
+                <h2>Deciding what to read next?</h2>
+                <p>
+                    You’re in the right place. Tell us what titles
+                    or genres you’ve enjoyed in the past,
+                    and we’ll give you surprisingly
+                    insightful recommendations.
+                </p>
+                <h5>Search and browse books</h5>
+                <form method="get" @onsubmit="SearchBooks">
+                    <input class="form-control" @bind=query type="text" placeholder="Title / Author / ISBN" aria-label="default input example">
+                </form>
+            </div>
+            @if (Books != null)
+            {
+                <div class="search-results">
+                    <h2>Search results</h2>
+                    @foreach (var book in Books.Take(10))
+                    {
+                        <div class="result">
+                            <NavLink href="@($"book/details/{book.Id}")">
+                                <img src="@book.Cover" width="100px" />
+                            </NavLink>
+                            <div class="info">
+                                <NavLink href="@($"book/details/{book.Id}")" class="nav-link" style="color: #333D2E; padding: 0; font-family: 'Alegreya', serif; font-size: 1.25rem;">
+                                    <span>@book.Title</span>
+                                </NavLink>
+                                <p>By @book.Author</p>
+                                <p>@(book.Rating.HasValue ? Math.Ceiling(book.Rating.Value * 10) / 10 : "0") <i class="fa-solid fa-star fa-xl"></i> </p>
+                            </div>
+                        </div>
+                        
+                    }
+                </div>
+            }
+            else
+            {
+                <div class="recommendations">
+                    <h2>If you liked.. you will like</h2>
+                    <div class="book">
+                        <NavLink href="book/details/19288043">
+                            <img src="imgs/book1.jpg" />
+                        </NavLink>
+                        <i class="fa-solid fa-arrow-right fa-2xl"></i>
+                        <NavLink href="book/details/36430011">
+                            <img src="imgs/book1rec1.jpg" />
+                        </NavLink>
+                        <NavLink href="book/details/5886881">
+                            <img src="imgs/book1rec2.jpg" />
+                        </NavLink>
+                        <NavLink href="book/details/9736930">
+                            <img src="imgs/book1rec3.jpg"/>
+                        </NavLink>
+                    </div>
+                    <div class="book">
+                        <NavLink href="book/details/7144">
+                            <img src="imgs/book2.jpg" />
+                        </NavLink>
+                        <i class="fa-solid fa-arrow-right fa-2xl"></i>
+                        <NavLink href="book/details/4934">
+                            <img src="imgs/book2rec1.jpg" />
+                        </NavLink>
+                        <NavLink href="book/details/12505">
+                            <img src="imgs/book2rec2.jpg" />
+                        </NavLink>
+                        <NavLink href="book/details/49455">
+                            <img src="imgs/book2rec3.jpg" />
+                        </NavLink>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+@code {
+    string query;
+    List<Book> Books;
+
+    public async Task SearchBooks()
+    {
+        Books = await _httpClient.GetFromJsonAsync<List<Book>>($"api/books/search?query={query}");
+    }
+}

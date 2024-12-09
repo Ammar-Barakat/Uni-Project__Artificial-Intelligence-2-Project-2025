@@ -1,0 +1,30 @@
+﻿<div class="container">
+    @if (isHome)
+    {
+        <div class="main-header d-flex justify-content-center">
+            <div class="logo">
+                <NavLink href="/">
+                    <img class="logo-a" src="imgs/LOGO.png" alt="logo a">
+                </NavLink>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="main-header">
+            <div class="logo">
+                <NavLink href="/">
+                    <img class="logo-a" src="imgs/LOGO.png" alt="logo a">
+                </NavLink>
+            </div>
+            <form method="get" onclick="">
+                <input class="form-control" type="text" placeholder="Title / Author / ISBN" aria-label="default input example">
+            </form>
+        </div>
+    }
+</div>
+
+@code {
+    [Parameter]
+    public bool isHome { get; set; }
+}

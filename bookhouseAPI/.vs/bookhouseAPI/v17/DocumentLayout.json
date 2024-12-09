@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Study\\.Fourth Year\\AI 2\\Project\\bookhouseAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DE9FF569-3DEA-45AC-97D0-0B80E5181787}|bookhouseAPI\\bookhouseAPI.csproj|d:\\study\\.fourth year\\ai 2\\project\\bookhouseapi\\bookhouseapi\\repository\\bookrepository\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE9FF569-3DEA-45AC-97D0-0B80E5181787}|bookhouseAPI\\bookhouseAPI.csproj|solutionrelative:bookhouseapi\\repository\\bookrepository\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE9FF569-3DEA-45AC-97D0-0B80E5181787}|bookhouseAPI\\bookhouseAPI.csproj|d:\\study\\.fourth year\\ai 2\\project\\bookhouseapi\\bookhouseapi\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE9FF569-3DEA-45AC-97D0-0B80E5181787}|bookhouseAPI\\bookhouseAPI.csproj|solutionrelative:bookhouseapi\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE9FF569-3DEA-45AC-97D0-0B80E5181787}|bookhouseAPI\\bookhouseAPI.csproj|d:\\study\\.fourth year\\ai 2\\project\\bookhouseapi\\bookhouseapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE9FF569-3DEA-45AC-97D0-0B80E5181787}|bookhouseAPI\\bookhouseAPI.csproj|solutionrelative:bookhouseapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE9FF569-3DEA-45AC-97D0-0B80E5181787}|bookhouseAPI\\bookhouseAPI.csproj|d:\\study\\.fourth year\\ai 2\\project\\bookhouseapi\\bookhouseapi\\repository\\bookrepository\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE9FF569-3DEA-45AC-97D0-0B80E5181787}|bookhouseAPI\\bookhouseAPI.csproj|solutionrelative:bookhouseapi\\repository\\bookrepository\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE9FF569-3DEA-45AC-97D0-0B80E5181787}|bookhouseAPI\\bookhouseAPI.csproj|d:\\study\\.fourth year\\ai 2\\project\\bookhouseapi\\bookhouseapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DE9FF569-3DEA-45AC-97D0-0B80E5181787}|bookhouseAPI\\bookhouseAPI.csproj|solutionrelative:bookhouseapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE9FF569-3DEA-45AC-97D0-0B80E5181787}|bookhouseAPI\\bookhouseAPI.csproj|d:\\study\\.fourth year\\ai 2\\project\\bookhouseapi\\bookhouseapi\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE9FF569-3DEA-45AC-97D0-0B80E5181787}|bookhouseAPI\\bookhouseAPI.csproj|solutionrelative:bookhouseapi\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Study\\.Fourth Year\\AI 2\\Project\\bookhouseAPI\\bookhouseAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "bookhouseAPI\\appsettings.json",
+              "ToolTip": "D:\\Study\\.Fourth Year\\AI 2\\Project\\bookhouseAPI\\bookhouseAPI\\appsettings.json",
+              "RelativeToolTip": "bookhouseAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-03T14:16:02.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Book.cs",
+              "DocumentMoniker": "D:\\Study\\.Fourth Year\\AI 2\\Project\\bookhouseAPI\\bookhouseAPI\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "bookhouseAPI\\Models\\Book.cs",
+              "ToolTip": "D:\\Study\\.Fourth Year\\AI 2\\Project\\bookhouseAPI\\bookhouseAPI\\Models\\Book.cs",
+              "RelativeToolTip": "bookhouseAPI\\Models\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T20:15:34.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Study\\.Fourth Year\\AI 2\\Project\\bookhouseAPI\\bookhouseAPI\\Program.cs",
+              "RelativeDocumentMoniker": "bookhouseAPI\\Program.cs",
+              "ToolTip": "D:\\Study\\.Fourth Year\\AI 2\\Project\\bookhouseAPI\\bookhouseAPI\\Program.cs",
+              "RelativeToolTip": "bookhouseAPI\\Program.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAvwDQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T17:46:03.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "D:\\Study\\.Fourth Year\\AI 2\\Project\\bookhouseAPI\\bookhouseAPI\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "bookhouseAPI\\Controllers\\BooksController.cs",
+              "ToolTip": "D:\\Study\\.Fourth Year\\AI 2\\Project\\bookhouseAPI\\bookhouseAPI\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "bookhouseAPI\\Controllers\\BooksController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA5wCsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T17:39:04.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookRepository.cs",
+              "DocumentMoniker": "D:\\Study\\.Fourth Year\\AI 2\\Project\\bookhouseAPI\\bookhouseAPI\\Repository\\BookRepository\\BookRepository.cs",
+              "RelativeDocumentMoniker": "bookhouseAPI\\Repository\\BookRepository\\BookRepository.cs",
+              "ToolTip": "D:\\Study\\.Fourth Year\\AI 2\\Project\\bookhouseAPI\\bookhouseAPI\\Repository\\BookRepository\\BookRepository.cs",
+              "RelativeToolTip": "bookhouseAPI\\Repository\\BookRepository\\BookRepository.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAgwCcAAACDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T16:18:07.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IBookRepository.cs",
+              "DocumentMoniker": "D:\\Study\\.Fourth Year\\AI 2\\Project\\bookhouseAPI\\bookhouseAPI\\Repository\\BookRepository\\IBookRepository.cs",
+              "RelativeDocumentMoniker": "bookhouseAPI\\Repository\\BookRepository\\IBookRepository.cs",
+              "ToolTip": "D:\\Study\\.Fourth Year\\AI 2\\Project\\bookhouseAPI\\bookhouseAPI\\Repository\\BookRepository\\IBookRepository.cs",
+              "RelativeToolTip": "bookhouseAPI\\Repository\\BookRepository\\IBookRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T16:17:59.134Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

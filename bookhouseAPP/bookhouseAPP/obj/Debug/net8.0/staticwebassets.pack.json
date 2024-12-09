@@ -1,0 +1,125 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Study\\.Fourth Year\\AI 2\\Project\\bookhouseAPP\\bookhouseAPP\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "D:\\Study\\.Fourth Year\\AI 2\\Project\\bookhouseAPP\\bookhouseAPP\\obj\\Debug\\net8.0\\compressed\\t9tq0em4x4.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "D:\\Study\\.Fourth Year\\AI 2\\Project\\bookhouseAPP\\bookhouseAPP\\obj\\Debug\\net8.0\\scopedcss\\bundle\\bookhouseAPP.styles.css",
+      "PackagePath": "staticwebassets\\bookhouseAPP.styles.css"
+    },
+    {
+      "Id": "D:\\Study\\.Fourth Year\\AI 2\\Project\\bookhouseAPP\\bookhouseAPP\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "D:\\Study\\.Fourth Year\\AI 2\\Project\\bookhouseAPP\\bookhouseAPP\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Study\\.Fourth Year\\AI 2\\Project\\bookhouseAPP\\bookhouseAPP\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Study\\.Fourth Year\\AI 2\\Project\\bookhouseAPP\\bookhouseAPP\\wwwroot\\font-awesome\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\all.min.css"
+    },
+    {
+      "Id": "D:\\Study\\.Fourth Year\\AI 2\\Project\\bookhouseAPP\\bookhouseAPP\\wwwroot\\font-awesome\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\font-awesome\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "D:\\Study\\.Fourth Year\\AI 2\\Project\\bookhouseAPP\\bookhouseAPP\\wwwroot\\font-awesome\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\font-awesome\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "D:\\Study\\.Fourth Year\\AI 2\\Project\\bookhouseAPP\\bookhouseAPP\\wwwroot\\font-awesome\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\font-awesome\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "D:\\Study\\.Fourth Year\\AI 2\\Project\\bookhouseAPP\\bookhouseAPP\\wwwroot\\font-awesome\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\font-awesome\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "D:\\Study\\.Fourth Year\\AI 2\\Project\\bookhouseAPP\\bookhouseAPP\\wwwroot\\font-awesome\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\font-awesome\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "D:\\Study\\.Fourth Year\\AI 2\\Project\\bookhouseAPP\\bookhouseAPP\\wwwroot\\font-awesome\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\font-awesome\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "D:\\Study\\.Fourth Year\\AI 2\\Project\\bookhouseAPP\\bookhouseAPP\\wwwroot\\font-awesome\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\font-awesome\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "D:\\Study\\.Fourth Year\\AI 2\\Project\\bookhouseAPP\\bookhouseAPP\\wwwroot\\font-awesome\\webfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\font-awesome\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "D:\\Study\\.Fourth Year\\AI 2\\Project\\bookhouseAPP\\bookhouseAPP\\wwwroot\\imgs\\Cover.png",
+      "PackagePath": "staticwebassets\\imgs\\Cover.png"
+    },
+    {
+      "Id": "D:\\Study\\.Fourth Year\\AI 2\\Project\\bookhouseAPP\\bookhouseAPP\\wwwroot\\imgs\\LOGO.png",
+      "PackagePath": "staticwebassets\\imgs\\LOGO.png"
+    },
+    {
+      "Id": "D:\\Study\\.Fourth Year\\AI 2\\Project\\bookhouseAPP\\bookhouseAPP\\wwwroot\\imgs\\book1.jpg",
+      "PackagePath": "staticwebassets\\imgs\\book1.jpg"
+    },
+    {
+      "Id": "D:\\Study\\.Fourth Year\\AI 2\\Project\\bookhouseAPP\\bookhouseAPP\\wwwroot\\imgs\\book1rec1.jpg",
+      "PackagePath": "staticwebassets\\imgs\\book1rec1.jpg"
+    },
+    {
+      "Id": "D:\\Study\\.Fourth Year\\AI 2\\Project\\bookhouseAPP\\bookhouseAPP\\wwwroot\\imgs\\book1rec2.jpg",
+      "PackagePath": "staticwebassets\\imgs\\book1rec2.jpg"
+    },
+    {
+      "Id": "D:\\Study\\.Fourth Year\\AI 2\\Project\\bookhouseAPP\\bookhouseAPP\\wwwroot\\imgs\\book1rec3.jpg",
+      "PackagePath": "staticwebassets\\imgs\\book1rec3.jpg"
+    },
+    {
+      "Id": "D:\\Study\\.Fourth Year\\AI 2\\Project\\bookhouseAPP\\bookhouseAPP\\wwwroot\\imgs\\book2.jpg",
+      "PackagePath": "staticwebassets\\imgs\\book2.jpg"
+    },
+    {
+      "Id": "D:\\Study\\.Fourth Year\\AI 2\\Project\\bookhouseAPP\\bookhouseAPP\\wwwroot\\imgs\\book2rec1.jpg",
+      "PackagePath": "staticwebassets\\imgs\\book2rec1.jpg"
+    },
+    {
+      "Id": "D:\\Study\\.Fourth Year\\AI 2\\Project\\bookhouseAPP\\bookhouseAPP\\wwwroot\\imgs\\book2rec2.jpg",
+      "PackagePath": "staticwebassets\\imgs\\book2rec2.jpg"
+    },
+    {
+      "Id": "D:\\Study\\.Fourth Year\\AI 2\\Project\\bookhouseAPP\\bookhouseAPP\\wwwroot\\imgs\\book2rec3.jpg",
+      "PackagePath": "staticwebassets\\imgs\\book2rec3.jpg"
+    },
+    {
+      "Id": "D:\\Study\\.Fourth Year\\AI 2\\Project\\bookhouseAPP\\bookhouseAPP\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.bookhouseAPP.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.bookhouseAPP.props",
+      "PackagePath": "build\\bookhouseAPP.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.bookhouseAPP.props",
+      "PackagePath": "buildMultiTargeting\\bookhouseAPP.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.bookhouseAPP.props",
+      "PackagePath": "buildTransitive\\bookhouseAPP.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

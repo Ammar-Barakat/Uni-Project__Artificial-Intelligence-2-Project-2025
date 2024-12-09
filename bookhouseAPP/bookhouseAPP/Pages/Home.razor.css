@@ -1,0 +1,107 @@
+﻿.cover {
+    background-image: url('imgs/cover.png');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+.text {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text h1 {
+    font-family: "Alegreya", serif;
+    font-size: 4rem;
+    color: #F6F6F6;
+}
+
+.text h3 {
+    font-family: "Alegreya", serif;
+    font-size: 3rem;
+    color: #F6F6F6;
+}
+
+.body {
+    display: flex;
+}
+
+.body .search {
+    width: 50%;
+}
+
+.body .search h2 {
+    font-family: "Alegreya", serif;
+    color: #333D2E;
+}
+
+.body .search p {
+    width: 75%;
+    font-size: 1.25rem;
+    font-family: "Parkinsans", sans-serif;
+}
+
+.body .search h5 {
+    font-family: "Alegreya", serif;
+    color: #333D2E;
+}
+
+.body .search form input {
+    width: 50%;
+    height: 30px;
+    border-color: #494949;
+}
+
+.body .search form input::placeholder {
+    font-size: 0.9rem;
+}
+
+.body .recommendations {
+    width: 50%;
+}
+
+.body .recommendations h2 {
+    font-family: "Alegreya", serif;
+    color: #333D2E;
+}
+
+.body .recommendations .book {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.body .recommendations .book img {
+    width: 125px;
+    border-radius: 0 15px 15px 0;
+}
+
+.body .search-results {
+    width: 50%;
+}
+
+.body .search-results h2 {
+    font-family: "Alegreya", serif;
+    color: #333D2E;
+}
+
+.body .search-results .result {
+    display: flex;
+    background-color: #C1BAA1;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+    border-radius: 10px;
+}
+
+.body .search-results .result img {
+    border-radius: 0 15px 15px 0;
+    margin-right: 0.5em;
+}
+
+.body .search-results .result .info p {
+    font-family: "Parkinsans", sans-serif;
+    font-size: 0.8rem;
+    margin-bottom: 0.5em;
+}

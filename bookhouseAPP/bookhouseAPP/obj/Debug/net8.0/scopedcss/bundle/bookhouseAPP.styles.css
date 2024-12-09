@@ -1,0 +1,226 @@
+/* /Layout/Header.razor.rz.scp.css */
+.main-header[b-e4kno1do0j] {
+    padding: 0.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img[b-e4kno1do0j] {
+    width: 150px;
+    margin-left: 0.5em;
+}
+
+form input[b-e4kno1do0j] {
+    height: 30px;
+    border-color: #494949;
+}
+
+form input[b-e4kno1do0j]::placeholder {
+    font-size: 0.9rem;
+}
+/* /Layout/MainLayout.razor.rz.scp.css */
+/* /Pages/Details.razor.rz.scp.css */
+.book[b-eisir9rqve] {
+    background-color: #C1BAA1;
+    width: 100%;
+    display: flex;
+    padding: 2em;
+    align-items: center;
+}
+
+.cover[b-eisir9rqve] {
+    width: 300px;
+    height: 450px;
+    background-image: var(--cover-img);
+    background-size: cover;
+    border-radius: 0 25px 25px 0;
+    margin-right: 2em;
+}
+
+.book-info[b-eisir9rqve] {
+    width: calc(100% - 300px);
+}
+
+.book-info .title[b-eisir9rqve] {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.book-info .title h1[b-eisir9rqve] {
+    margin-bottom: 0.25em;
+    font-family: "Parkinsans", sans-serif;
+}
+
+.book-info .title .rate[b-eisir9rqve] {
+    display: flex;
+    align-items: center;
+}
+
+.book-info .title .rate p[b-eisir9rqve] {
+    margin: 0 0.5em;
+    font-family: "Parkinsans", sans-serif;
+    font-size: 1.5rem;
+}
+
+.book-info .title .rate i[b-eisir9rqve] {
+    color: #333D2E;
+}
+
+.book-info h4[b-eisir9rqve] {
+    margin-bottom: 0.5em;
+    font-family: "Parkinsans", sans-serif;
+}
+
+.book-info .description[b-eisir9rqve] {
+    width: 75%;
+    font-family: "Alegreya", serif;
+    font-size: 1.25rem;
+}
+
+.book-info .genres span[b-eisir9rqve] {
+    color: #F6F6F6;
+    font-size: smaller;
+    margin-right: 1em;
+}
+
+.book-info .genres p[b-eisir9rqve] {
+    margin: 0 0.5em;
+    color: #333D2E;
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: "Parkinsans", sans-serif;
+}
+
+.book-info span[b-eisir9rqve] {
+    color: #F6F6F6;
+    font-size: smaller;
+    margin-right: 1em;
+}
+
+.recommendations h3[b-eisir9rqve] {
+    font-family: "Parkinsans", sans-serif;
+}
+
+.recommendations .books-recommendations[b-eisir9rqve] {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+
+.recommendations .books-recommendations .recommendation .recommendation-cover[b-eisir9rqve] {
+    width: 250px;
+    height: 350px;
+    background-image: var(--recommendation-cover);
+    background-size: cover;
+    border-radius: 0 25px 25px 0;
+}
+/* /Pages/Home.razor.rz.scp.css */
+.cover[b-zcf47mx1a2] {
+    background-image: url('imgs/cover.png');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+.text[b-zcf47mx1a2] {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text h1[b-zcf47mx1a2] {
+    font-family: "Alegreya", serif;
+    font-size: 4rem;
+    color: #F6F6F6;
+}
+
+.text h3[b-zcf47mx1a2] {
+    font-family: "Alegreya", serif;
+    font-size: 3rem;
+    color: #F6F6F6;
+}
+
+.body[b-zcf47mx1a2] {
+    display: flex;
+}
+
+.body .search[b-zcf47mx1a2] {
+    width: 50%;
+}
+
+.body .search h2[b-zcf47mx1a2] {
+    font-family: "Alegreya", serif;
+    color: #333D2E;
+}
+
+.body .search p[b-zcf47mx1a2] {
+    width: 75%;
+    font-size: 1.25rem;
+    font-family: "Parkinsans", sans-serif;
+}
+
+.body .search h5[b-zcf47mx1a2] {
+    font-family: "Alegreya", serif;
+    color: #333D2E;
+}
+
+.body .search form input[b-zcf47mx1a2] {
+    width: 50%;
+    height: 30px;
+    border-color: #494949;
+}
+
+.body .search form input[b-zcf47mx1a2]::placeholder {
+    font-size: 0.9rem;
+}
+
+.body .recommendations[b-zcf47mx1a2] {
+    width: 50%;
+}
+
+.body .recommendations h2[b-zcf47mx1a2] {
+    font-family: "Alegreya", serif;
+    color: #333D2E;
+}
+
+.body .recommendations .book[b-zcf47mx1a2] {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.body .recommendations .book img[b-zcf47mx1a2] {
+    width: 125px;
+    border-radius: 0 15px 15px 0;
+}
+
+.body .search-results[b-zcf47mx1a2] {
+    width: 50%;
+}
+
+.body .search-results h2[b-zcf47mx1a2] {
+    font-family: "Alegreya", serif;
+    color: #333D2E;
+}
+
+.body .search-results .result[b-zcf47mx1a2] {
+    display: flex;
+    background-color: #C1BAA1;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+    border-radius: 10px;
+}
+
+.body .search-results .result img[b-zcf47mx1a2] {
+    border-radius: 0 15px 15px 0;
+    margin-right: 0.5em;
+}
+
+.body .search-results .result .info p[b-zcf47mx1a2] {
+    font-family: "Parkinsans", sans-serif;
+    font-size: 0.8rem;
+    margin-bottom: 0.5em;
+}

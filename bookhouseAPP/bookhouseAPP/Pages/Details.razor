@@ -1,0 +1,88 @@
+﻿@page "/book/details/{id:int}"
+@using bookhouseAPP.Models
+@inject HttpClient _client;
+
+<Header isHome=false />
+
+@if (details != null)
+{
+    <div class="book">
+        <div class="container d-flex">
+            <div class="cover" style="--cover-img: url(@details.Cover)"></div>
+            <div class="book-info">
+                <div class="title">
+                    <h1>@details.Title</h1>
+                    <div class="rate">
+                        <p>@(details.Rating.HasValue ? Math.Ceiling(details.Rating.Value * 10) / 10 : "0")</p>
+                        <i class="fa-solid fa-star fa-xl"></i>
+                    </div>
+                </div>
+                <h4>
+                    By @details.Author
+                </h4>
+                <p class="description">
+                    @details.Description
+                </p>
+                <div class="genres d-flex align-items-center">
+                    <span>Genres</span>
+                    @foreach(var genre in genres.Take(4))
+                    {
+                        <p>@genre.Replace("'", "").Replace("[", "").Replace("]", "")</p>
+                    }
+                </div>
+                @* <span>First published: @date.ToString("MMMM d, yyyy")</span> *@
+                <br>
+                <span>Published By @details.Publisher</span>
+                <br />
+                <span>@details.Pages pages, @details.Format - @details.Language</span>
+            </div>
+        </div>
+    </div>
+    <div class="recommendations mt-3">
+        <div class="container">
+            <h3>YOU MAY ALSO LIKE</h3>
+            <div class="books-recommendations">
+                @foreach (var recommendation in recommendations.Take(5))
+                {
+                    <NavLink href="@($"book/details/{recommendation.Id}")">
+                        <div class="recommendation">
+                            <div class="recommendation-cover" style="--recommendation-cover: url(@recommendation.Cover)"></div>
+                        </div>
+                    </NavLink>
+                }
+            </div>
+        </div>
+    </div>
+}
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    Book details;
+    string errorString = string.Empty;
+
+    List<string> genres;
+    // DateOnly date;
+
+    List<Book> recommendations;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            details = await _client.GetFromJsonAsync<Book>($"api/books/details/{Id}");
+
+            recommendations = await _client.GetFromJsonAsync<List<Book>>($"api/books/recommendations/{Id}");
+        }
+        catch (Exception ex)
+        {
+            errorString = ex.Message;
+        }
+
+        genres = details.Genres.Split(',').ToList();
+        // date = DateOnly.Parse(details.PublishDate.ToString());
+    }
+}
+
+    

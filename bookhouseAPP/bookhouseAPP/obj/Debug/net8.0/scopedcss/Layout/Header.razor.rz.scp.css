@@ -1,0 +1,20 @@
+.main-header[b-e4kno1do0j] {
+    padding: 0.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img[b-e4kno1do0j] {
+    width: 150px;
+    margin-left: 0.5em;
+}
+
+form input[b-e4kno1do0j] {
+    height: 30px;
+    border-color: #494949;
+}
+
+form input[b-e4kno1do0j]::placeholder {
+    font-size: 0.9rem;
+}
